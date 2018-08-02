@@ -55,7 +55,7 @@ module.exports = {
 }
 ```
 
-对于测试环境来说，一些模块我们不需要进行处理，比如图片模块、样式模块，我们需要把这些模块mock掉，通过moduleNameMapper配置，把指定文件后缀的模块使用自定义文件mock掉，如图片模块，我们新建/tests/\_\_mock__/fileMock.js文件：
+对于测试环境来说，一些模块我们不需要进行处理，比如图片模块、样式模块，我们需要把这些模块mock掉，通过moduleNameMapper配置，把指定文件后缀的模块使用自定义文件mock掉，如图片模块，我们新建/tests/\_\_mock__/fileMock.js文件：
 
 ```
 module.exports = {}
