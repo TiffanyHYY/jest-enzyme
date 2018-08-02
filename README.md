@@ -1,6 +1,6 @@
 ## 前言
 
-[Jest](https://facebook.github.io/jest/) 是 Facebook 开发的一个测试框架，它集成了测试执行器、断言库、spy、mock、snapshot和测试覆盖率报告等功能。React项目本身也是使用Jest进行单测的，因此它们俩的契合度相当高。
+[Jest](https://facebook.github.io/jest/) 是 Facebook 开发的一个测试框架，它集成了测试执行器、断言库、spy、mock、snapshot和测试覆盖率报告等功能。React项目本身也是使用Jest进行单测的，因此它们俩的契合度相当高。
 
 [Enzyme](http://airbnb.io/enzyme/) 是由 airbnb 开发的React单测工具。它扩展了React的TestUtils并通过支持类似jQuery的find语法可以很方便的对render出来的结果做各种断言。
 
